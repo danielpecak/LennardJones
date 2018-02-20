@@ -63,7 +63,7 @@ coords = coords[:-1]
 
 # Get ready to draw...
 dwg = svgwrite.Drawing(filename='coords_start.svg')
-dwg.viewbox(width=200, height=200)
+dwg.viewbox(width=400, height=400)
 # ...draw atoms...
 for c in coords:
     x,y = map(float,c[:-1].split(' '))
@@ -79,7 +79,7 @@ coords = coords[:-1]
 
 # Get ready to draw...
 dwg = svgwrite.Drawing(filename='coords_end.svg')
-dwg.viewbox(width=200, height=200)
+dwg.viewbox(width=400, height=400)
 # ...draw atoms...
 for c in coords:
     x,y = map(float,c[:-1].split(' '))

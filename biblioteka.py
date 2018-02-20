@@ -11,8 +11,8 @@ from PIL import Image, ImageDraw
 class stale:
     """The class holds all constants and parameters of the program. """
     def __init__(self):
-        self.steps = 80000
-        self.sqpart = 4
+        self.steps = 800000
+        self.sqpart = 22
         self.particleNumber = self.sqpart**2
         self.boxsize = self.sqpart*2
         self.eps = 1.0
